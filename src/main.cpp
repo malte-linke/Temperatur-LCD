@@ -22,6 +22,8 @@ void setup()
 
 void loop() 
 {
+  delay(1000);
+  
   // get temperatrue and humidity
   // also ignore all errors
   dht11.read2(&temperature, &humidity, NULL);
@@ -31,6 +33,4 @@ void loop()
   lcd.print("LUFT: " + String((float)humidity) + "%");
   lcd.setCursor(0, 1);
   lcd.print("TEMP: " + String((float)temperature) + (char)223 + "C");
-
-  delay(1000);
 }
