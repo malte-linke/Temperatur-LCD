@@ -2,6 +2,8 @@
 
 Für die Momente, in denen man unbedingt wissen muss, wie warm es ist und wie hoch die Luftfeuchtigkeit ist.
 
+<a href="assets/Temperatur LCD.fzz">Steckplan (.fzz)</a>
+
 
 #### Steckplatine & Schaltplan
 <img src="assets/Steckplatine.svg" alt="Steckplatine" style="background-color: white;">
