@@ -4,11 +4,11 @@ Für die Momente, in denen man unbedingt wissen muss, wie warm es ist und wie ho
 
 
 #### Steckplatine & Schaltplan
-<img src="assets/Steckplatine.svg" alt="Steckplatine">
+<img src="assets/Steckplatine.svg" alt="Steckplatine" style="background-color: white;">
 
 ---
 
-<img src="assets/Schaltplan.svg" alt="Steckplatine">
+<img src="assets/Schaltplan.svg" alt="Steckplatine" style="background-color: white;">
 
 ---
 
