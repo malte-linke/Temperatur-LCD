@@ -14,11 +14,16 @@ float humidity = 0;
 void setup()
 {
   lcd.begin(16, 2);
+
+  // wait to allow the DHT module to initialize fully
+  lcd.print("Lade...");
+  delay(2000);
 }
 
 void loop() 
 {
   // get temperatrue and humidity
+  // also ignore all errors
   dht11.read2(&temperature, &humidity, NULL);
 
   // print to display
