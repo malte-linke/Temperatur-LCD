@@ -9,6 +9,8 @@ SimpleDHT11 dht11(SensorPin);
 
 float temperature = 0;
 float humidity = 0;
+float temperature_old = 0;
+float humidity_old = 0;
 
 
 void setup()
@@ -27,6 +29,10 @@ void loop()
   // get temperatrue and humidity
   // also ignore all errors
   dht11.read2(&temperature, &humidity, NULL);
+
+  if (humidity == humidity_old && temperature == temperature_old) return; // only update screen if needed
+  humidity_old = humidity;
+  temperature_old = temperature;
 
   // print to display
   lcd.clear();
