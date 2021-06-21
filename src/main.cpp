@@ -2,7 +2,7 @@
 #include <../.pio/libdeps/uno/LiquidCrystal/src/LiquidCrystal.h>
 #include <../.pio/libdeps/uno/SimpleDHT/SimpleDHT.h>
 
-#define SensorPin 6
+#define SensorPin 7
 
 LiquidCrystal lcd(8, 9, 10, 11, 12, 13);
 SimpleDHT11 dht11(SensorPin);
